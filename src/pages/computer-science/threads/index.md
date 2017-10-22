@@ -3,13 +3,22 @@ title: Threads
 ---
 ## Threads
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/computer-science/threads/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+A thread is a flow of execution within a process.Threads are used to improve program by achieving parallelism.A process can have multiple threads that is why it is also called a lightweight process.
+A thread is a component of a process and cann't exist outside a process.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Advantages of thread
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+1.Utilization of resources as resources can be shared among all thread within a process.
+2.Faster context switching between different thread within same process.
+
+There are two types of thread
+.User thread
+.Kernel thread
+
+Note: Single threading and Multithreading are term used to classify application but not thread.
+
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+To know more about thread visit <a src="https://en.wikipedia.org/wiki/Thread_(computing)">Thread(computing)</a>.
 
 
